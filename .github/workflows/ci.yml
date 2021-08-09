@@ -11,7 +11,6 @@ on:
       - release
   workflow_dispatch:
 
-
 jobs:
   build:
     env:
