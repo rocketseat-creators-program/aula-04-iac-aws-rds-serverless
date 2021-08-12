@@ -10,5 +10,5 @@ WORKDIR /app
 
 COPY . .
 
-CMD chmod +x devops/iac/test/v.sh && \
+CMD chmod +x devops/iac/test/test.sh && \
     ./devops/iac/test/test.sh
