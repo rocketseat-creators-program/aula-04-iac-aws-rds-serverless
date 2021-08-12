@@ -21,6 +21,6 @@ resource "aws_rds_cluster" "default" {
 
 resource "random_password" "password" {
   length           = 16
-  special          = true
+  special          = false
   override_special = "_%@"
 }
